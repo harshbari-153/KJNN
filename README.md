@@ -1,4 +1,4 @@
-# KJNN: A Novel Neural Network Architecture for Claim Justification Classification
+# KJNN: A Neural Network Architecture for Claim Justification Classification
 
 KJNN is a neural network architecture designed for claim justification classification. It utilizes seven trainable matrices to effectively capture the relationships between a claim and its justifications. This project addresses the challenge of classifying the veracity of claims based on provided justifications, specifically within the context of political discourse.
 
