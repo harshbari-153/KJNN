@@ -55,11 +55,11 @@ The following table summarizes the classification accuracy (in percentages) achi
 
 | Model         | Classifier 1 | Classifier 2 | Classifier 3 | Classifier 4 | Classifier 5 |
 |---------------|--------------|--------------|--------------|--------------|--------------|
-| **KJNN**      |  **68.32**   |  **74.32**   |   **77.77**  |   **58.09**  |   **66.23**  |
+| **KJNN**      |    68.32     |  **74.32**   |     77.77    |   **58.09**  |   **66.23**  |
 | sBERT         |    68.73     |    71.24     |     77.35    |     55.95    |     65.77    |
-| DistilBERT    |    70.17     |    73.63     |     78.64    |     54.04    |     65.37    |
+| DistilBERT    |    70.17     |    73.63     |   **78.64**  |     54.04    |     65.37    |
 | GloVe         |    69.11     |    73.63     |     78.50    |     55.08    |     63.74    |
-| RoBERTa Base  |    70.82     |    73.41     |     77.18    |     57.04    |     64.71    |
+| RoBERTa Base  |  **70.82**   |    73.41     |     77.18    |     57.04    |     64.71    |
 | Word2Vec      |    69.45     |    73.71     |     78.30    |     52.48    |     63.91    |
 
 These results demonstrate the competitive performance of KJNN compared to established methods. Notably, KJNN achieves comparable or even slightly better performance than sBERT in some categories, despite having a simpler architecture. However, it lags behind DistilBERT and RoBERTa Base, suggesting potential areas for improvement in future work, such as exploring different training strategies or incorporating attention mechanisms. The lower accuracy in Accuracy 4 across all models warrants further investigation into the characteristics of the data within that category.
