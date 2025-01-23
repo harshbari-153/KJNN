@@ -47,7 +47,7 @@ justification5 = "Last year school X had one board topper"
 
 # Generate vector representation
 embedding = KJNN.KJNN_predict(claim, justification1, justification2, justification3, justification4, justification5)
-
+```
 
 ## Results
 
